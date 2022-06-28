@@ -1,0 +1,29 @@
+.container-sobre{
+    margin: 5%;
+    margin-bottom: 3%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.texto-sobre{
+    max-width: 300px;
+}
+.container-sobre .imagem-sobre{
+    margin: 0px 2%;
+}
+.imagem-sobre img{
+    width:490px;
+}
+.h2-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    color: rgb(226, 84, 84);
+}
+.h1-sobre{
+    font-size: 24px;
+    margin-bottom: 7px;
+}
