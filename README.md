@@ -1,6 +1,12 @@
 # DonaFormiga
 Website of an online candy store
+# Stacks:
 
+- React
+- React Router
+- Styled Components
+
+# Attachments:
 
 ![image](https://user-images.githubusercontent.com/86370873/176516551-ad6f6d56-7369-4e58-ab59-060773e62853.png)
 ![image](https://user-images.githubusercontent.com/86370873/176516606-63e76dda-c8c3-4ee9-a671-ba04c2d3b149.png)
