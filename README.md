@@ -1,5 +1,7 @@
-# DonaFormiga
+# Dona Formiga
+
 Website of an online candy store
+
 # Stacks:
 
 - React
