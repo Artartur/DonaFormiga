@@ -1,10 +1,10 @@
-import './header.css'
+import {Header} from '../styles/header-style'
 
-const Header = () =>{
+const Cabecalho = () =>{
     return(
         <>
         <div>    
-            <header>
+            <Header>
                 <h3><a href="#">Dona Formiga</a></h3>
                 <nav>
                     <a href="#">Inicio</a>
@@ -13,11 +13,11 @@ const Header = () =>{
                     <a href="#">Contatos</a>
                 </nav>
                 <h3 className="pedido"><a href="#" >Realizar Pedido</a></h3>
-            </header>
+            </Header>
 
         </div>
         </>
     )
 }
 
-export default Header;
+export default Cabecalho;

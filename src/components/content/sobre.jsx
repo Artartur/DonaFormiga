@@ -1,17 +1,16 @@
-import './sobre.css'
-import Confeiteiro from '../assets/confeiteiro.jpg'
+import {About} from '../styles/content-styles'
+import Confeiteiro from './../../assets/confeiteiro.jpg'
 
 function Sobre() {
   return (
-    <>
-        
-        <div className="container-sobre">
-            <div className="imagem-sobre">
+    <> 
+        <About>
+            <div className="imagem">
                 <img src={Confeiteiro}/>
             </div>
-            <div className="texto-sobre">
-                <h2 className="h2-sobre">Sobre nós</h2>
-                <h1 className="h1-sobre">Entenda quem nós somos</h1>
+            <div className="texto">
+                <h2>Sobre nós</h2>
+                <h1>Entenda quem nós somos</h1>
                 <div className="div-texto">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         do eiusmod tempor incididunt ut labore et dolore magna 
@@ -23,7 +22,7 @@ function Sobre() {
                         </p>
                 </div>
             </div>
-        </div>
+        </About>
     </>
   )
 }

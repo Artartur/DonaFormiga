@@ -1,16 +1,17 @@
-import './footer.css';
-import Email from './../assets/email.svg';
-import Face from './../assets/face.svg';
-import Insta from './../assets/insta.svg';
-import Whats from './../assets/whats.svg';
-function Footer() {
+import {Footer} from '../styles/footer-styles'
+import Email from './../../assets/email.svg';
+import Face from './../../assets/face.svg';
+import Insta from './../../assets/insta.svg';
+import Whats from './../../assets/whats.svg';
+
+function Rodape() {
   return (
     <>
-        <footer> 
-            <div className="vazio-footer"></div>
-            <div className="container-footer">
-              <div className= "card-footer">
-                <div className="card-text-footer">
+        <Footer> 
+            <div className="vazio"></div>
+            <div className="container">
+              <div className= "card">
+                <div className="card-text">
                     <div>
                       <img src={Face}/>
                       <p>Facebook/</p>
@@ -33,9 +34,9 @@ function Footer() {
                 </div>
               </div>
             </div>
-        </footer>
+        </Footer>
     </>
   )
 }
 
-export default Footer
+export default Rodape;

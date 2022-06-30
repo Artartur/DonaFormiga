@@ -1,20 +1,20 @@
-import './inicio.css'
+import {Home} from '../styles/content-styles'
 
 const Inicio = () =>{
     return(
-        <div>
+        <Home>
             <div className="vazio"></div>
             <div className="container">
-            <div className="textos">
-            <h4>BEM VINDOS A DONA FORMIGA DOCERIA!</h4>
-            <h1>A melhor doceria da região</h1>
-            <p>Não fornecemos apenas doces, fornecemos o amor, a paixão e o 
-                <p>prazer para os nossos clientes saborear.</p></p>
-            <button><h3>REALIZE SEU PEDIDO</h3></button>
-            </div>
-            <div className="carrossel">
-            <h3>|Carrossel|</h3>
-            </div>
+                <div className="textos">
+                    <h4>BEM VINDOS A DONA FORMIGA DOCERIA!</h4>
+                    <h1>A melhor doceria da região</h1>
+                    <p>Não fornecemos apenas doces, fornecemos o amor, a paixão e o 
+                        <p>prazer para os nossos clientes saborear.</p></p>
+                    <button><h3>REALIZE SEU PEDIDO</h3></button>
+                </div>
+                <div className="carrossel">
+                    <h3>|Carrossel|</h3>
+                </div>
             </div>
 
             <div className="card">
@@ -40,7 +40,7 @@ const Inicio = () =>{
                     </div>
                 </div>
             </div>
-        </div>
+        </Home>
     )
 }
 
